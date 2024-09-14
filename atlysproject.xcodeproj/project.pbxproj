@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002B1D602C9569F800F80CCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B1D5F2C9569F800F80CCC /* AppDelegate.swift */; };
+		002B1D622C9569F800F80CCC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B1D612C9569F800F80CCC /* SceneDelegate.swift */; };
+		002B1D642C9569F800F80CCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B1D632C9569F800F80CCC /* ViewController.swift */; };
+		002B1D672C9569F800F80CCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002B1D652C9569F800F80CCC /* Main.storyboard */; };
+		002B1D692C9569FA00F80CCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 002B1D682C9569FA00F80CCC /* Assets.xcassets */; };
+		002B1D6C2C9569FA00F80CCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002B1D6A2C9569FA00F80CCC /* LaunchScreen.storyboard */; };
+		002B1D772C9569FA00F80CCC /* atlysprojectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B1D762C9569FA00F80CCC /* atlysprojectTests.swift */; };
+		002B1D812C9569FA00F80CCC /* atlysprojectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B1D802C9569FA00F80CCC /* atlysprojectUITests.swift */; };
+		002B1D832C9569FA00F80CCC /* atlysprojectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002B1D822C9569FA00F80CCC /* atlysprojectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		002B1D732C9569FA00F80CCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 002B1D542C9569F800F80CCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 002B1D5B2C9569F800F80CCC;
+			remoteInfo = atlysproject;
+		};
+		002B1D7D2C9569FA00F80CCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 002B1D542C9569F800F80CCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 002B1D5B2C9569F800F80CCC;
+			remoteInfo = atlysproject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002B1D5C2C9569F800F80CCC /* atlysproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = atlysproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		002B1D5F2C9569F800F80CCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		002B1D612C9569F800F80CCC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		002B1D632C9569F800F80CCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		002B1D662C9569F800F80CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		002B1D682C9569FA00F80CCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		002B1D6B2C9569FA00F80CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		002B1D6D2C9569FA00F80CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		002B1D722C9569FA00F80CCC /* atlysprojectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = atlysprojectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		002B1D762C9569FA00F80CCC /* atlysprojectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atlysprojectTests.swift; sourceTree = "<group>"; };
+		002B1D7C2C9569FA00F80CCC /* atlysprojectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = atlysprojectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		002B1D802C9569FA00F80CCC /* atlysprojectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atlysprojectUITests.swift; sourceTree = "<group>"; };
+		002B1D822C9569FA00F80CCC /* atlysprojectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = atlysprojectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		002B1D592C9569F800F80CCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002B1D6F2C9569FA00F80CCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002B1D792C9569FA00F80CCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		002B1D532C9569F800F80CCC = {
+			isa = PBXGroup;
+			children = (
+				002B1D5E2C9569F800F80CCC /* atlysproject */,
+				002B1D752C9569FA00F80CCC /* atlysprojectTests */,
+				002B1D7F2C9569FA00F80CCC /* atlysprojectUITests */,
+				002B1D5D2C9569F800F80CCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		002B1D5D2C9569F800F80CCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				002B1D5C2C9569F800F80CCC /* atlysproject.app */,
+				002B1D722C9569FA00F80CCC /* atlysprojectTests.xctest */,
+				002B1D7C2C9569FA00F80CCC /* atlysprojectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		002B1D5E2C9569F800F80CCC /* atlysproject */ = {
+			isa = PBXGroup;
+			children = (
+				002B1D5F2C9569F800F80CCC /* AppDelegate.swift */,
+				002B1D612C9569F800F80CCC /* SceneDelegate.swift */,
+				002B1D632C9569F800F80CCC /* ViewController.swift */,
+				002B1D652C9569F800F80CCC /* Main.storyboard */,
+				002B1D682C9569FA00F80CCC /* Assets.xcassets */,
+				002B1D6A2C9569FA00F80CCC /* LaunchScreen.storyboard */,
+				002B1D6D2C9569FA00F80CCC /* Info.plist */,
+			);
+			path = atlysproject;
+			sourceTree = "<group>";
+		};
+		002B1D752C9569FA00F80CCC /* atlysprojectTests */ = {
+			isa = PBXGroup;
+			children = (
+				002B1D762C9569FA00F80CCC /* atlysprojectTests.swift */,
+			);
+			path = atlysprojectTests;
+			sourceTree = "<group>";
+		};
+		002B1D7F2C9569FA00F80CCC /* atlysprojectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				002B1D802C9569FA00F80CCC /* atlysprojectUITests.swift */,
+				002B1D822C9569FA00F80CCC /* atlysprojectUITestsLaunchTests.swift */,
+			);
+			path = atlysprojectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		002B1D5B2C9569F800F80CCC /* atlysproject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 002B1D862C9569FA00F80CCC /* Build configuration list for PBXNativeTarget "atlysproject" */;
+			buildPhases = (
+				002B1D582C9569F800F80CCC /* Sources */,
+				002B1D592C9569F800F80CCC /* Frameworks */,
+				002B1D5A2C9569F800F80CCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = atlysproject;
+			productName = atlysproject;
+			productReference = 002B1D5C2C9569F800F80CCC /* atlysproject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		002B1D712C9569FA00F80CCC /* atlysprojectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 002B1D892C9569FA00F80CCC /* Build configuration list for PBXNativeTarget "atlysprojectTests" */;
+			buildPhases = (
+				002B1D6E2C9569FA00F80CCC /* Sources */,
+				002B1D6F2C9569FA00F80CCC /* Frameworks */,
+				002B1D702C9569FA00F80CCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				002B1D742C9569FA00F80CCC /* PBXTargetDependency */,
+			);
+			name = atlysprojectTests;
+			productName = atlysprojectTests;
+			productReference = 002B1D722C9569FA00F80CCC /* atlysprojectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		002B1D7B2C9569FA00F80CCC /* atlysprojectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 002B1D8C2C9569FA00F80CCC /* Build configuration list for PBXNativeTarget "atlysprojectUITests" */;
+			buildPhases = (
+				002B1D782C9569FA00F80CCC /* Sources */,
+				002B1D792C9569FA00F80CCC /* Frameworks */,
+				002B1D7A2C9569FA00F80CCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				002B1D7E2C9569FA00F80CCC /* PBXTargetDependency */,
+			);
+			name = atlysprojectUITests;
+			productName = atlysprojectUITests;
+			productReference = 002B1D7C2C9569FA00F80CCC /* atlysprojectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		002B1D542C9569F800F80CCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					002B1D5B2C9569F800F80CCC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					002B1D712C9569FA00F80CCC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 002B1D5B2C9569F800F80CCC;
+					};
+					002B1D7B2C9569FA00F80CCC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 002B1D5B2C9569F800F80CCC;
+					};
+				};
+			};
+			buildConfigurationList = 002B1D572C9569F800F80CCC /* Build configuration list for PBXProject "atlysproject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 002B1D532C9569F800F80CCC;
+			productRefGroup = 002B1D5D2C9569F800F80CCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				002B1D5B2C9569F800F80CCC /* atlysproject */,
+				002B1D712C9569FA00F80CCC /* atlysprojectTests */,
+				002B1D7B2C9569FA00F80CCC /* atlysprojectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		002B1D5A2C9569F800F80CCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002B1D6C2C9569FA00F80CCC /* LaunchScreen.storyboard in Resources */,
+				002B1D692C9569FA00F80CCC /* Assets.xcassets in Resources */,
+				002B1D672C9569F800F80CCC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002B1D702C9569FA00F80CCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002B1D7A2C9569FA00F80CCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		002B1D582C9569F800F80CCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002B1D642C9569F800F80CCC /* ViewController.swift in Sources */,
+				002B1D602C9569F800F80CCC /* AppDelegate.swift in Sources */,
+				002B1D622C9569F800F80CCC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002B1D6E2C9569FA00F80CCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002B1D772C9569FA00F80CCC /* atlysprojectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		002B1D782C9569FA00F80CCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002B1D832C9569FA00F80CCC /* atlysprojectUITestsLaunchTests.swift in Sources */,
+				002B1D812C9569FA00F80CCC /* atlysprojectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		002B1D742C9569FA00F80CCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 002B1D5B2C9569F800F80CCC /* atlysproject */;
+			targetProxy = 002B1D732C9569FA00F80CCC /* PBXContainerItemProxy */;
+		};
+		002B1D7E2C9569FA00F80CCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 002B1D5B2C9569F800F80CCC /* atlysproject */;
+			targetProxy = 002B1D7D2C9569FA00F80CCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		002B1D652C9569F800F80CCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				002B1D662C9569F800F80CCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		002B1D6A2C9569FA00F80CCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				002B1D6B2C9569FA00F80CCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		002B1D842C9569FA00F80CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		002B1D852C9569FA00F80CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		002B1D872C9569FA00F80CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = atlysproject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahigarg.atlysproject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		002B1D882C9569FA00F80CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = atlysproject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahigarg.atlysproject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		002B1D8A2C9569FA00F80CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahigarg.atlysprojectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/atlysproject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/atlysproject";
+			};
+			name = Debug;
+		};
+		002B1D8B2C9569FA00F80CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahigarg.atlysprojectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/atlysproject.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/atlysproject";
+			};
+			name = Release;
+		};
+		002B1D8D2C9569FA00F80CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahigarg.atlysprojectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = atlysproject;
+			};
+			name = Debug;
+		};
+		002B1D8E2C9569FA00F80CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mahigarg.atlysprojectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = atlysproject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		002B1D572C9569F800F80CCC /* Build configuration list for PBXProject "atlysproject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002B1D842C9569FA00F80CCC /* Debug */,
+				002B1D852C9569FA00F80CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		002B1D862C9569FA00F80CCC /* Build configuration list for PBXNativeTarget "atlysproject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002B1D872C9569FA00F80CCC /* Debug */,
+				002B1D882C9569FA00F80CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		002B1D892C9569FA00F80CCC /* Build configuration list for PBXNativeTarget "atlysprojectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002B1D8A2C9569FA00F80CCC /* Debug */,
+				002B1D8B2C9569FA00F80CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		002B1D8C2C9569FA00F80CCC /* Build configuration list for PBXNativeTarget "atlysprojectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002B1D8D2C9569FA00F80CCC /* Debug */,
+				002B1D8E2C9569FA00F80CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 002B1D542C9569F800F80CCC /* Project object */;
+}
